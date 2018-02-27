@@ -1,0 +1,139 @@
+{
+    "art": [
+        {
+            "title":"Sitting on the rail",
+            "slug": "sitting-on-rail",
+            "description":" ",
+            "date":"2015-03-10",
+            "tools":"Clip studio paint",
+            "thumbnail":"/assets\/curated\/0305-thumb.jpg"
+        },{
+            "title":"Rynspyr",
+            "slug": "rynspyr",
+            "subtitle": "Comic",
+            "description":"<p>Chapter 3 page 10 of <a href='http:\/\/rynspyr.emihaumut.com'>Rynspyr<\/a> Please check it out for more pages!</p> ",
+            "date":"2015-09-28",
+            "tools":"Clip studio paint, photoshop, ",
+            "thumbnail":"/assets\/curated\/rynch3-10 copy.png"
+        },
+        {
+            "title":"The Croissant",
+            "slug": "the-croissant",
+            "subtitle": "Comic",
+            "description":"<p>My contribution to the Ladies Night Anthology Volume 4: Eat It Up. Written by <a href='https://twitter.com/AlForNothing'>Al Rosenburg.</a> ",
+            "date":"2016-06-01",
+            "tools":"Clip Studio Paint",
+            "thumbnail":"/assets\/curated\/thumb.png",
+            "images": [
+                {"url":"/assets\/curated\/lettered-1-right.jpg","alt":"Page 1 of The Croissant"},
+                {"url":"/assets\/curated\/lettered-2.jpg","alt":"Page 2 of The Croissant"},
+                {"url":"/assets\/curated\/lettered-3.jpg","alt":"Page 3 of The Croissant"},
+                {"url":"/assets\/curated\/lettered-4.jpg","alt":"Page 4 of The Croissant"},
+                {"url":"/assets\/curated\/lettered-5.jpg","alt":"Page 5 of The Croissant"},
+                {"url":"/assets\/curated\/lettered-6.jpg","alt":"Page 6 of The Croissant"}
+            ]
+        },
+        {
+            "title":"Transport Troubles",
+            "slug": "transport-troubles",
+            "subtitle": "Game",
+            "description":"<p>Transport Troubles is a short visual novel made for NaNoRenO to which I contributed all the art assets including sprites, backgrounds, and UI. <a href='https:\/\/siliconyak.itch.io\/transport-troubles'>Play the game on itch.io<\/a></p>",
+            "date":"2017-03-31",
+            "tools":"Clip Studio Paint, renpy",
+            "thumbnail":"/assets\/curated\/transporttroubles-thumbnail.png",
+            "images": [
+                {"url":"/assets\/curated\/ss1.jpg","alt":"In game screenshot"},
+                {"url":"/assets\/curated\/ss3.jpg","alt":"In game screenshot 3"},
+                {"url":"/assets\/curated\/ss2.jpg","alt":"In game screenshot 2"}
+            ]
+        },
+        {
+            "title":"Erinyes",
+            "slug": "erinyes",
+            "subtitle": "Comic",
+            "description":"<p>My contribution to Secrets of the Goat People zine (which you can find at <a href='https:\/\/gumroad.com\/bleatingheartpress'>https:\/\/gumroad.com\/bleatingheartpress<\/a>) This will be in Volume 3: Fury!</p> ",
+            "date":"2017-05-30",
+            "tools":"Clip Studio Paint",
+            "thumbnail":"/assets\/curated\/erinyes-thumb.jpg",
+            "images": [
+                {"url":"/assets\/curated\/erinyes-800-1.jpg","alt":"Page 1 of Erinyes"},
+                {"url":"/assets\/curated\/erinyes-800-2.jpg","alt":"Page 2 of Erinyes"},
+                {"url":"/assets\/curated\/erinyes-800-3.jpg","alt":"Page 3 of Erinyes"},
+                {"url":"/assets\/curated\/erinyes-800-4.jpg","alt":"Page 4 of Erinyes"}
+            ]
+        }
+    ],
+    "code": [
+        {
+            "title":"VoteGood",
+            "slug": "votegood",
+            "description":"<p>VoteGood was developed for <a href=\"http:\/\/good.is\">good.is<\/a> as part of their web apprenticeship. Working in a small team of two developers and a designer, we created a forum-esque webapp for people to learn about their local state ballots (propositions, articles, amendments, etc), discuss them, pseudo-vote on them, and see generally how everyone else is voting. It was also mentioned in <a href=\"http:\/\/lifehacker.com\/5949886\/ballot-measures-made-simple-gives-you-both-sides-of-the-argument-on-state-initiatives\">LifeHacker<\/a>. \r\n</p><p>\r\nThe discussions are sorted chronologically. However, users can show support for the arguments they agree with by upvoting them. The arguments for and against with the most votes will be displayed at the very top. \r\n</p><p>\r\nThe wonderful editorial team can add more propositions or modify them as politics is an ever changing beast through the admin panel. The admin panel uses a simple https authorization to keep nosy people out.</p>",
+            "date":"2012-09-07",
+            "tools":"Ruby On Rails, RSPEC, SASS, SLIM",
+            "thumbnail":"/assets/curated/votegood/thumbnail.png",
+            "images": [
+                {"url":"/assets\/curated\/votegood\/map.png","alt":""},
+                {"url":"/assets\/curated\/votegood\/statedetails.png","alt":""},
+                {"url":"/assets\/curated\/votegood\/propdetails.png","alt":""},
+                {"url":"/assets\/curated\/votegood\/addargument.png","alt":"Form to add arguments for each proposition."},
+                {"url":"/assets\/curated\/votegood\/adminpanel.png","alt":"Admin Panel for managing propositions and icons."}
+            ]
+        },
+        {
+            "title":"AVIS",
+            "slug": "avis",
+            "description":"<p>AVIS is a file and project management system developed for comic studio <a href=\"http:\/\/catalyticproductions.tumblr.com\">Catalytic Productions<\/a>. </p><p>AVIS has a simple user management system so the members of the studio have their own login and any file they upload will be attached to their name. They can also leave comments on files as well as make their weekly required status update. They can upload an avatar for easy identification (and fun). Users also have tasks assigned to them so it's easy to keep track of who is doing what. Admin users can add new projects and members as well as edit them. </p><p>The files are organized into projects and then subcategories and then items. Items can have multiple versions (as a rudimentary version control system). If the file uploaded is an image, the image will be displayed, otherwise a stock image is displayed. Web links can also be uploaded, and the link will be displayed as an iframe (sorry)</p>. ",
+            "date":"2012-09-21",
+            "tools":"Ruby on Rails, SLIM, SASS",
+            "link":"http:\/\/avis.herokuapp.com\/",
+            "github":"https:\/\/github.com\/yeewai\/Avis",
+            "thumbnail":"/assets\/curated\/avis\/thumbnail.png",
+            "images": [
+                {"url":"/assets\/curated\/avis\/frontpage.png","alt":"Front Page of AVIS"},
+                {"url":"/assets\/curated\/avis\/file.png","alt":"File details page."}
+            ]
+        },
+        {
+            "title":"Kronografi",
+            "slug": "kronografi",
+            "description":"<p>Kronografi is a free to use simple writing assistant that helps you develop your stories. It lets you build a timeline of a world and assign events to characters you are developing to dynamically generate their biographies.<\/p><p>Kronografi stemmed from my own need to organize all my notes for my webcomic. Other available tools were either too complicated for what I need or not complicated enough. The closest solution I had was to use github's gollum, but after revising characters who share backstories enough, it quickly proved to be a large hassle. Kronografi was my solution to shared backstories. And then it grew to become a way to visualize chronology.<\/p>",
+            "date":"2015-01-01",
+            "tools":"Ruby on Rails, RSPEC, Twitter Bootstrap, MySQL",
+            "thumbnail":"/assets\/curated\/krono-thumb.png",
+            "images": [
+                {"url":"/assets\/curated\/timeline.png","alt":"View all the events on a timeline. "},
+                {"url":"/assets\/curated\/home.png","alt":"Landing Page"},
+                {"url":"/assets\/curated\/char.png","alt":"Character Biography."}
+            ]
+        },
+        {
+            "title":"McCormick Advising System",
+            "slug": "mccormick-advising-system",
+            "description":"<p>McCormick Advising System was developed for Northwestern McCormick School of Engineering as a  platform to manage the degree auditing process for McCormick School of Engineering. After an administrator creates degree templates on MAS using the simple interface, they can assign it to a student. MAS will then try to automatically match classes and allocate them accordingly. The administrator can then go in and modify allocations via drag and drop. <\/p>\r\n\r\n<p>A student can view their progress and see their grades. Data was updated daily. A students advisor could also see their progress and advised them accordingly on what courses to take. <\/p>\r\n\r\n<p>It has been featured <a href='http:\/\/www.mccormick.northwestern.edu\/news\/articles\/2014\/12\/mccormick-overhauls-undergraduate-advising.html'>on Northwestern's News<\/a> site. <\/p>",
+            "date":"2014-11-01",
+            "tools":"Ruby on Rails, RSPEC, Twitter Bootstrap, MySQL, LDAP, jQuery",
+            "link":"https:\/\/mas.mccormick.northwestern.edu\/",
+            "thumbnail":"/assets\/curated\/thumbnail.png",
+            "images": [
+                {"url":"/assets\/curated\/student_view.png","alt":"An example student's degree progress."},
+                {"url":"/assets\/curated\/index.png","alt":"Administrator's list of students"},
+                {"url":"/assets\/curated\/transcript-show-reversed.png","alt":"An example student's transcript"}
+            ]
+        },
+        {
+            "title":"Rynspyr",
+            "slug": "rynspyr",
+            "description":"This is the webpage for my webcomic Rynspyr. It has a simple backend in php to upload pages and news posts and publish them at specific times. ",
+            "date":"2013-12-03",
+            "tools":"php, photoshop, html, css",
+            "link":"http:\/\/rynspyr.emihaumut.com\/",
+            "github":"https:\/\/github.com\/yeewai\/webcomic",
+            "thumbnail":"/assets\/curated\/Rynspyr-thumb.png",
+            "images": [
+                {"url":"/assets\/curated\/Rynspyr.png","alt":"Newest page."},
+                {"url":"/assets\/curated\/addpage.png","alt":"Adding a new page"},
+                {"url":"/assets\/curated\/manage.png","alt":"Managing pages in chapter 3"}
+            ]
+        }
+    ]
+}

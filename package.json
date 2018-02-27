@@ -1,0 +1,33 @@
+{
+    "name": "portfolio-react",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "animate.css": "^3.6.1",
+        "prop-types": "^15.6.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-icons": "^2.2.5",
+        "react-redux": "^5.0.6",
+        "react-router-dom": "^4.1.2",
+        "react-router-redux": "^4.0.8",
+        "react-scripts": "1.1.1",
+        "reactstrap": "^5.0.0-beta",
+        "redux": "^3.7.2"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+        "bootstrap": "^4.0.0",
+        "node-sass": "^4.7.2",
+        "react-app-rewire-css-modules": "github:codebandits/react-app-rewire-css-modules",
+        "react-app-rewired": "^1.4.1",
+        "react-modal": "^3.2.1",
+        "react-sticky-box": "^0.6.1",
+        "sass-loader": "^6.0.6"
+    }
+}

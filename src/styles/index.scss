@@ -1,0 +1,288 @@
+@import 'vendor/node_modules/animate.css/animate.min.css';
+@import 'vendor/node_modules/bootstrap/dist/css/bootstrap.css';
+
+@font-face {
+    font-family: 'Riesling';
+    src: url('assets/fonts/riesling-webfont.eot');
+    src: url('assets/fonts/riesling-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/riesling-webfont.woff') format('woff'),
+         url('assets/fonts/riesling-webfont.ttf') format('truetype'),
+         url('assets/fonts/riesling-webfont.svg#RieslingRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@mixin fade{
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+}
+
+@mixin nav_li {
+	width: 180px;
+	margin: 5px;
+	display: block;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+$grey: rgb(88, 87, 92);
+$trans_grey: rgba(88, 87, 92, 0.75);
+$dark_grey: #2e2e2e;
+$orange: #d47820;
+$orange_bright: #ed9f55;
+$orange_dark: #c8a481;
+$green: #a2c111;
+$trans_white: rgba(255, 255, 255, .25);
+$half_white: rgba(255, 255, 255, .5);
+$most_white: rgba(255, 255, 255, .9);
+
+
+h1, h2, h3, h4 {
+	font-weight: 100;
+}
+
+
+body {
+	background-color: $grey;
+	background-image: url('assets/styling/bg-dark.jpg');
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+
+    font-weight: 100;
+}
+
+a {
+    color: $orange;
+    &:hover { color: $orange_bright; }
+
+    &:visited { color: $orange; }
+}
+
+.landing {
+    text-align: center;
+
+    a {
+        display: inline-block;
+    	color: white;
+    	font-family: 'Riesling';
+    	font-size: 3rem;
+        font-weight: 100;
+    	text-align: center;
+    	text-decoration: none;
+        line-height: 1100px;
+        height: 600px;
+        border: solid 0 $orange;
+        border-bottom-width: 5px;
+
+    	&:hover {
+    		color: $orange;
+    	}
+
+    }
+    .item {
+        @include fade;
+        opacity: 0.5;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    #art a {
+        width: 320px;
+        background-image: url('assets/images/front-art.png');
+    }
+    #code a {
+        width: 320px;
+        background-image: url('assets/images/front-code.png');
+    }
+
+    #about a {
+        font-size: 5rem;
+        border-color: $green;
+        line-height: 600px;
+    }
+
+}
+
+
+nav {
+	clear: both;
+	ul {
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+		width: 960px;
+
+		li {
+			height: 80px;
+			@include nav_li;
+			background-color: rgba(255, 255, 255, 0.7);
+			margin-top: 0;
+
+			&:first-child, &:last-child {
+				border: solid 0 $orange;
+				border-bottom-width: 5px;
+			}
+
+			&:nth-child(4), &:nth-child(2) {
+				border: solid 0 $green;
+				border-bottom-width: 5px;
+			}
+
+			a.nav {
+				padding-top: 10px;
+			}
+
+			&#center {
+			  background-color: transparent;
+			  border: none;
+			  background: url(assets/styling/circle.png) -14px -100px;
+			}
+		}
+	}
+}
+
+article {
+    padding: 1rem;
+}
+
+.images button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0.5rem;
+    margin-top: 0;
+}
+
+img.portrait {
+	width: 300px;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+
+
+ul.skills {
+  list-style: none;
+  display: table;
+
+  li {
+    float: left;
+    width: 49px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 5px;
+    overflow: hidden;
+
+    &.skill-half {
+      background:url(assets/styling/skill.png) -96px 0;
+    }
+    &.skill-threequarter {
+      background:url(assets/styling/skill.png) -48px 0;
+    }
+    &.skill-full {
+      background:url(assets/styling/skill.png) 0 0;
+    }
+
+    img {
+      margin-top: 7px;
+      overflow: hidden;
+    }
+  }
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.45);
+    border: none;
+    min-height: 320px;
+    background-color: $trans_grey;
+    border-bottom: solid 5px $orange;
+    color: white;
+
+    .text-muted { color: #999 !important; }
+}
+
+a .card, .images button {
+    &:hover, &:focus {
+        transition: box-shadow 0.4s cubic-bezier(.25,.8,.25,1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.4), 0 6px 6px rgba(0,0,0,0.45);
+        color: var(--svp-body-text);
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+.item_images {
+  float: left;
+  width: 560px;
+
+  img {
+    max-width: 550px;
+    height: auto;
+    margin: 5px;
+  }
+}
+
+ul.allitems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    &#centeredlist {
+        text-align: center;
+        >li {width: 100%;}
+    }
+
+    li {
+        // float: left;
+        width: 310px;
+        margin: 1rem;
+        display: inline-block;
+        text-align: left;
+
+        &:nth-child(even) .card {
+            border-color: $green;
+        }
+
+
+
+        a {
+            text-decoration: none;
+            color: white;
+
+            &:hover { color: $orange; }
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            padding-left: 0;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+    }
+}
+// Utilities
+.animation-delay-100 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.animation-delay-200 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.animation-delay-1000 {
+  -webkit-animation-delay: 1.0s;
+  animation-delay: 1.0s;
+}
