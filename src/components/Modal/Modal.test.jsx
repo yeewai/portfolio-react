@@ -25,7 +25,7 @@ describe("Generic Modal", () => {
 
     const renderModalAndClickClose = (store, modalType) => {
         store.dispatch = sinon.spy();
-        const wrapper = mount( <Modal modalType={modalType} store={store} contentLabel="b");
+        const wrapper = mount( <Modal modalType={modalType} store={store} contentLabel="b" />);
 
         // react-modal doesn't attaches the modal to the root of the document so we can't find it with enzyme
         const portalWrapper = wrapper.find('ModalPortal');

@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom';
 
 import { projectsSelectors } from 'services/projects';
 
-const Projects = ({projects, projectsType}) => {
+export const Projects = ({projects, projectsType}) => {
     return (
-        <article className={`projects ${projectsType}`}>
-            <h2>{projectsType}</h2>
+        <article className={`projects ${projectsType} animated fadeIn`}>
             <ul className="allitems ">
-                { projects.map( m =>(
-                    <li>
+                { projects.map( (m, i) =>(
+                    <li key={`project-${i}`}>
                         <Link to={`/${projectsType}/${m.slug}`}>
                             <div className="card animated fadeIn">
                                 <img className="card-img-top" src={m.thumbnail} alt={m.title} />
@@ -27,7 +26,7 @@ const Projects = ({projects, projectsType}) => {
     );
 }
 
-const mapStateToProps = (state, ownProps) => ({
+export const mapStateToProps = (state, ownProps) => ({
     projectsType: ownProps.match.params.projectsType,
     projects: ownProps.match.params.projectsType === "art" ? projectsSelectors.getArt(state) : projectsSelectors.getCode(state)
 });

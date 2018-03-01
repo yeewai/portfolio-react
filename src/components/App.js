@@ -8,8 +8,6 @@ import Landing from './Landing';
 import Projects from './Projects';
 import ProjectDetail from './ProjectDetail';
 
-// import { Grid } from 'react-flexbox-grid';
-
 class App extends Component {
   render() {
     return (

@@ -7,27 +7,43 @@
         "prop-types": "^15.6.0",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
+        "react-feather": "^1.0.8",
         "react-icons": "^2.2.5",
         "react-redux": "^5.0.6",
         "react-router-dom": "^4.1.2",
         "react-router-redux": "^4.0.8",
         "react-scripts": "1.1.1",
+        "react-tippy": "^1.2.2",
         "reactstrap": "^5.0.0-beta",
         "redux": "^3.7.2"
     },
     "scripts": {
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
-        "test": "react-app-rewired test --env=jsdom",
-        "eject": "react-scripts eject"
+        "test": "NODE_PATH=src/ react-app-rewired test --env=jsdom",
+        "eject": "#react-scripts eject"
     },
     "devDependencies": {
         "bootstrap": "^4.0.0",
+        "enzyme": "^3.3.0",
+        "enzyme-adapter-react-16": "^1.1.1",
+        "jquery": "^3.3.1",
         "node-sass": "^4.7.2",
         "react-app-rewire-css-modules": "github:codebandits/react-app-rewire-css-modules",
         "react-app-rewired": "^1.4.1",
         "react-modal": "^3.2.1",
         "react-sticky-box": "^0.6.1",
-        "sass-loader": "^6.0.6"
-    }
+        "redux-mock-store": "^1.5.1",
+        "sass-loader": "^6.0.6",
+        "sinon": "^4.4.2"
+    },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!src/services/reducers.js",
+      "!src/store.js",
+      "!src/index.js"
+    ]
+  }
 }

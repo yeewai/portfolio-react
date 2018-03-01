@@ -67,6 +67,7 @@
         {
             "title":"VoteGood",
             "slug": "votegood",
+            "subtitle": "Ruby on Rails",
             "description":"<p>VoteGood was developed for <a href=\"http:\/\/good.is\">good.is<\/a> as part of their web apprenticeship. Working in a small team of two developers and a designer, we created a forum-esque webapp for people to learn about their local state ballots (propositions, articles, amendments, etc), discuss them, pseudo-vote on them, and see generally how everyone else is voting. It was also mentioned in <a href=\"http:\/\/lifehacker.com\/5949886\/ballot-measures-made-simple-gives-you-both-sides-of-the-argument-on-state-initiatives\">LifeHacker<\/a>. \r\n</p><p>\r\nThe discussions are sorted chronologically. However, users can show support for the arguments they agree with by upvoting them. The arguments for and against with the most votes will be displayed at the very top. \r\n</p><p>\r\nThe wonderful editorial team can add more propositions or modify them as politics is an ever changing beast through the admin panel. The admin panel uses a simple https authorization to keep nosy people out.</p>",
             "date":"2012-09-07",
             "tools":"Ruby On Rails, RSPEC, SASS, SLIM",
@@ -82,6 +83,7 @@
         {
             "title":"AVIS",
             "slug": "avis",
+            "subtitle": "Ruby on Rails",
             "description":"<p>AVIS is a file and project management system developed for comic studio <a href=\"http:\/\/catalyticproductions.tumblr.com\">Catalytic Productions<\/a>. </p><p>AVIS has a simple user management system so the members of the studio have their own login and any file they upload will be attached to their name. They can also leave comments on files as well as make their weekly required status update. They can upload an avatar for easy identification (and fun). Users also have tasks assigned to them so it's easy to keep track of who is doing what. Admin users can add new projects and members as well as edit them. </p><p>The files are organized into projects and then subcategories and then items. Items can have multiple versions (as a rudimentary version control system). If the file uploaded is an image, the image will be displayed, otherwise a stock image is displayed. Web links can also be uploaded, and the link will be displayed as an iframe (sorry)</p>. ",
             "date":"2012-09-21",
             "tools":"Ruby on Rails, SLIM, SASS",
@@ -96,6 +98,7 @@
         {
             "title":"Kronografi",
             "slug": "kronografi",
+            "subtitle": "Ruby on Rails",
             "description":"<p>Kronografi is a free to use simple writing assistant that helps you develop your stories. It lets you build a timeline of a world and assign events to characters you are developing to dynamically generate their biographies.<\/p><p>Kronografi stemmed from my own need to organize all my notes for my webcomic. Other available tools were either too complicated for what I need or not complicated enough. The closest solution I had was to use github's gollum, but after revising characters who share backstories enough, it quickly proved to be a large hassle. Kronografi was my solution to shared backstories. And then it grew to become a way to visualize chronology.<\/p>",
             "date":"2015-01-01",
             "tools":"Ruby on Rails, RSPEC, Twitter Bootstrap, MySQL",
@@ -107,8 +110,9 @@
             ]
         },
         {
-            "title":"McCormick Advising System",
+            "title":"MAS",
             "slug": "mccormick-advising-system",
+            "subtitle": "Ruby on Rails",
             "description":"<p>McCormick Advising System was developed for Northwestern McCormick School of Engineering as a  platform to manage the degree auditing process for McCormick School of Engineering. After an administrator creates degree templates on MAS using the simple interface, they can assign it to a student. MAS will then try to automatically match classes and allocate them accordingly. The administrator can then go in and modify allocations via drag and drop. <\/p>\r\n\r\n<p>A student can view their progress and see their grades. Data was updated daily. A students advisor could also see their progress and advised them accordingly on what courses to take. <\/p>\r\n\r\n<p>It has been featured <a href='http:\/\/www.mccormick.northwestern.edu\/news\/articles\/2014\/12\/mccormick-overhauls-undergraduate-advising.html'>on Northwestern's News<\/a> site. <\/p>",
             "date":"2014-11-01",
             "tools":"Ruby on Rails, RSPEC, Twitter Bootstrap, MySQL, LDAP, jQuery",
@@ -123,6 +127,7 @@
         {
             "title":"Rynspyr",
             "slug": "rynspyr",
+            "subtitle": "php",
             "description":"This is the webpage for my webcomic Rynspyr. It has a simple backend in php to upload pages and news posts and publish them at specific times. ",
             "date":"2013-12-03",
             "tools":"php, photoshop, html, css",

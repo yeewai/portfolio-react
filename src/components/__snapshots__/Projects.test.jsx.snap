@@ -1,0 +1,940 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    projects={
+        Array [
+            Object {
+              "date": "Some date",
+              "description": "<p>sup sup sup</p>",
+              "images": Array [
+                Object {
+                  "alt": "b",
+                  "url": "a",
+                },
+                Object {
+                  "alt": "d",
+                  "url": "c",
+                },
+              ],
+              "subtitle": "Sub-eyyyyyyy",
+              "title": "Eyyyyyy",
+              "tools": "Sum tools",
+            },
+            Object {
+              "date": "Some date2",
+              "description": "<p>sup sup sup</p>",
+              "images": Array [
+                Object {
+                  "alt": "b",
+                  "url": "a",
+                },
+                Object {
+                  "alt": "d",
+                  "url": "c",
+                },
+              ],
+              "title": "Eyyyyyy2",
+              "tools": "Sum tools2",
+            },
+          ]
+    }
+    projectsType="/art"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="allitems "
+>
+        <li>
+                <Link
+                        replace={false}
+                        to="//art/undefined"
+                >
+                        <div
+                                className="card animated fadeIn"
+                        >
+                                <img
+                                        alt="Eyyyyyy"
+                                        className="card-img-top"
+                                        src={undefined}
+                                />
+                                <div
+                                        className="card-body"
+                                >
+                                        <h3
+                                                className="card-title"
+                                        >
+                                                Eyyyyyy
+                                        </h3>
+                                        <h4
+                                                class="card-subtitle mb-2 text-muted"
+                                        >
+                                                Sub-eyyyyyyy
+                                        </h4>
+                                </div>
+                        </div>
+                </Link>
+        </li>
+        <li>
+                <Link
+                        replace={false}
+                        to="//art/undefined"
+                >
+                        <div
+                                className="card animated fadeIn"
+                        >
+                                <img
+                                        alt="Eyyyyyy2"
+                                        className="card-img-top"
+                                        src={undefined}
+                                />
+                                <div
+                                        className="card-body"
+                                >
+                                        <h3
+                                                className="card-title"
+                                        >
+                                                Eyyyyyy2
+                                        </h3>
+                                </div>
+                        </div>
+                </Link>
+        </li>
+</ul>,
+      "className": "projects /art animated fadeIn",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <Link
+                        replace={false}
+                        to="//art/undefined"
+            >
+                        <div
+                                    className="card animated fadeIn"
+                        >
+                                    <img
+                                                alt="Eyyyyyy"
+                                                className="card-img-top"
+                                                src={undefined}
+                                    />
+                                    <div
+                                                className="card-body"
+                                    >
+                                                <h3
+                                                            className="card-title"
+                                                >
+                                                            Eyyyyyy
+                                                </h3>
+                                                <h4
+                                                            class="card-subtitle mb-2 text-muted"
+                                                >
+                                                            Sub-eyyyyyyy
+                                                </h4>
+                                    </div>
+                        </div>
+            </Link>
+</li>,
+          <li>
+            <Link
+                        replace={false}
+                        to="//art/undefined"
+            >
+                        <div
+                                    className="card animated fadeIn"
+                        >
+                                    <img
+                                                alt="Eyyyyyy2"
+                                                className="card-img-top"
+                                                src={undefined}
+                                    />
+                                    <div
+                                                className="card-body"
+                                    >
+                                                <h3
+                                                            className="card-title"
+                                                >
+                                                            Eyyyyyy2
+                                                </h3>
+                                    </div>
+                        </div>
+            </Link>
+</li>,
+        ],
+        "className": "allitems ",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "project-0",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="//art/undefined"
+>
+              <div
+                            className="card animated fadeIn"
+              >
+                            <img
+                                          alt="Eyyyyyy"
+                                          className="card-img-top"
+                                          src={undefined}
+                            />
+                            <div
+                                          className="card-body"
+                            >
+                                          <h3
+                                                        className="card-title"
+                                          >
+                                                        Eyyyyyy
+                                          </h3>
+                                          <h4
+                                                        class="card-subtitle mb-2 text-muted"
+                                          >
+                                                        Sub-eyyyyyyy
+                                          </h4>
+                            </div>
+              </div>
+</Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <div
+                className="card animated fadeIn"
+>
+                <img
+                                alt="Eyyyyyy"
+                                className="card-img-top"
+                                src={undefined}
+                />
+                <div
+                                className="card-body"
+                >
+                                <h3
+                                                className="card-title"
+                                >
+                                                Eyyyyyy
+                                </h3>
+                                <h4
+                                                class="card-subtitle mb-2 text-muted"
+                                >
+                                                Sub-eyyyyyyy
+                                </h4>
+                </div>
+</div>,
+              "replace": false,
+              "to": "//art/undefined",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Eyyyyyy"
+                    className="card-img-top"
+                    src={undefined}
+/>,
+                  <div
+                    className="card-body"
+>
+                    <h3
+                                        className="card-title"
+                    >
+                                        Eyyyyyy
+                    </h3>
+                    <h4
+                                        class="card-subtitle mb-2 text-muted"
+                    >
+                                        Sub-eyyyyyyy
+                    </h4>
+</div>,
+                ],
+                "className": "card animated fadeIn",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Eyyyyyy",
+                    "className": "card-img-top",
+                    "src": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="card-title"
+>
+                        Eyyyyyy
+</h3>,
+                      <h4
+                        class="card-subtitle mb-2 text-muted"
+>
+                        Sub-eyyyyyyy
+</h4>,
+                    ],
+                    "className": "card-body",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Eyyyyyy",
+                        "className": "card-title",
+                      },
+                      "ref": null,
+                      "rendered": "Eyyyyyy",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Sub-eyyyyyyy",
+                        "class": "card-subtitle mb-2 text-muted",
+                      },
+                      "ref": null,
+                      "rendered": "Sub-eyyyyyyy",
+                      "type": "h4",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "project-1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="//art/undefined"
+>
+              <div
+                            className="card animated fadeIn"
+              >
+                            <img
+                                          alt="Eyyyyyy2"
+                                          className="card-img-top"
+                                          src={undefined}
+                            />
+                            <div
+                                          className="card-body"
+                            >
+                                          <h3
+                                                        className="card-title"
+                                          >
+                                                        Eyyyyyy2
+                                          </h3>
+                            </div>
+              </div>
+</Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <div
+                className="card animated fadeIn"
+>
+                <img
+                                alt="Eyyyyyy2"
+                                className="card-img-top"
+                                src={undefined}
+                />
+                <div
+                                className="card-body"
+                >
+                                <h3
+                                                className="card-title"
+                                >
+                                                Eyyyyyy2
+                                </h3>
+                </div>
+</div>,
+              "replace": false,
+              "to": "//art/undefined",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Eyyyyyy2"
+                    className="card-img-top"
+                    src={undefined}
+/>,
+                  <div
+                    className="card-body"
+>
+                    <h3
+                                        className="card-title"
+                    >
+                                        Eyyyyyy2
+                    </h3>
+</div>,
+                ],
+                "className": "card animated fadeIn",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Eyyyyyy2",
+                    "className": "card-img-top",
+                    "src": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="card-title"
+>
+                        Eyyyyyy2
+</h3>,
+                      null,
+                    ],
+                    "className": "card-body",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Eyyyyyy2",
+                        "className": "card-title",
+                      },
+                      "ref": null,
+                      "rendered": "Eyyyyyy2",
+                      "type": "h3",
+                    },
+                    null,
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="allitems "
+>
+          <li>
+                    <Link
+                              replace={false}
+                              to="//art/undefined"
+                    >
+                              <div
+                                        className="card animated fadeIn"
+                              >
+                                        <img
+                                                  alt="Eyyyyyy"
+                                                  className="card-img-top"
+                                                  src={undefined}
+                                        />
+                                        <div
+                                                  className="card-body"
+                                        >
+                                                  <h3
+                                                            className="card-title"
+                                                  >
+                                                            Eyyyyyy
+                                                  </h3>
+                                                  <h4
+                                                            class="card-subtitle mb-2 text-muted"
+                                                  >
+                                                            Sub-eyyyyyyy
+                                                  </h4>
+                                        </div>
+                              </div>
+                    </Link>
+          </li>
+          <li>
+                    <Link
+                              replace={false}
+                              to="//art/undefined"
+                    >
+                              <div
+                                        className="card animated fadeIn"
+                              >
+                                        <img
+                                                  alt="Eyyyyyy2"
+                                                  className="card-img-top"
+                                                  src={undefined}
+                                        />
+                                        <div
+                                                  className="card-body"
+                                        >
+                                                  <h3
+                                                            className="card-title"
+                                                  >
+                                                            Eyyyyyy2
+                                                  </h3>
+                                        </div>
+                              </div>
+                    </Link>
+          </li>
+</ul>,
+        "className": "projects /art animated fadeIn",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <Link
+                            replace={false}
+                            to="//art/undefined"
+              >
+                            <div
+                                          className="card animated fadeIn"
+                            >
+                                          <img
+                                                        alt="Eyyyyyy"
+                                                        className="card-img-top"
+                                                        src={undefined}
+                                          />
+                                          <div
+                                                        className="card-body"
+                                          >
+                                                        <h3
+                                                                      className="card-title"
+                                                        >
+                                                                      Eyyyyyy
+                                                        </h3>
+                                                        <h4
+                                                                      class="card-subtitle mb-2 text-muted"
+                                                        >
+                                                                      Sub-eyyyyyyy
+                                                        </h4>
+                                          </div>
+                            </div>
+              </Link>
+</li>,
+            <li>
+              <Link
+                            replace={false}
+                            to="//art/undefined"
+              >
+                            <div
+                                          className="card animated fadeIn"
+                            >
+                                          <img
+                                                        alt="Eyyyyyy2"
+                                                        className="card-img-top"
+                                                        src={undefined}
+                                          />
+                                          <div
+                                                        className="card-body"
+                                          >
+                                                        <h3
+                                                                      className="card-title"
+                                                        >
+                                                                      Eyyyyyy2
+                                                        </h3>
+                                          </div>
+                            </div>
+              </Link>
+</li>,
+          ],
+          "className": "allitems ",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "project-0",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="//art/undefined"
+>
+                <div
+                                className="card animated fadeIn"
+                >
+                                <img
+                                                alt="Eyyyyyy"
+                                                className="card-img-top"
+                                                src={undefined}
+                                />
+                                <div
+                                                className="card-body"
+                                >
+                                                <h3
+                                                                className="card-title"
+                                                >
+                                                                Eyyyyyy
+                                                </h3>
+                                                <h4
+                                                                class="card-subtitle mb-2 text-muted"
+                                                >
+                                                                Sub-eyyyyyyy
+                                                </h4>
+                                </div>
+                </div>
+</Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <div
+                  className="card animated fadeIn"
+>
+                  <img
+                                    alt="Eyyyyyy"
+                                    className="card-img-top"
+                                    src={undefined}
+                  />
+                  <div
+                                    className="card-body"
+                  >
+                                    <h3
+                                                      className="card-title"
+                                    >
+                                                      Eyyyyyy
+                                    </h3>
+                                    <h4
+                                                      class="card-subtitle mb-2 text-muted"
+                                    >
+                                                      Sub-eyyyyyyy
+                                    </h4>
+                  </div>
+</div>,
+                "replace": false,
+                "to": "//art/undefined",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Eyyyyyy"
+                      className="card-img-top"
+                      src={undefined}
+/>,
+                    <div
+                      className="card-body"
+>
+                      <h3
+                                            className="card-title"
+                      >
+                                            Eyyyyyy
+                      </h3>
+                      <h4
+                                            class="card-subtitle mb-2 text-muted"
+                      >
+                                            Sub-eyyyyyyy
+                      </h4>
+</div>,
+                  ],
+                  "className": "card animated fadeIn",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Eyyyyyy",
+                      "className": "card-img-top",
+                      "src": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="card-title"
+>
+                          Eyyyyyy
+</h3>,
+                        <h4
+                          class="card-subtitle mb-2 text-muted"
+>
+                          Sub-eyyyyyyy
+</h4>,
+                      ],
+                      "className": "card-body",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Eyyyyyy",
+                          "className": "card-title",
+                        },
+                        "ref": null,
+                        "rendered": "Eyyyyyy",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Sub-eyyyyyyy",
+                          "class": "card-subtitle mb-2 text-muted",
+                        },
+                        "ref": null,
+                        "rendered": "Sub-eyyyyyyy",
+                        "type": "h4",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "project-1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="//art/undefined"
+>
+                <div
+                                className="card animated fadeIn"
+                >
+                                <img
+                                                alt="Eyyyyyy2"
+                                                className="card-img-top"
+                                                src={undefined}
+                                />
+                                <div
+                                                className="card-body"
+                                >
+                                                <h3
+                                                                className="card-title"
+                                                >
+                                                                Eyyyyyy2
+                                                </h3>
+                                </div>
+                </div>
+</Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <div
+                  className="card animated fadeIn"
+>
+                  <img
+                                    alt="Eyyyyyy2"
+                                    className="card-img-top"
+                                    src={undefined}
+                  />
+                  <div
+                                    className="card-body"
+                  >
+                                    <h3
+                                                      className="card-title"
+                                    >
+                                                      Eyyyyyy2
+                                    </h3>
+                  </div>
+</div>,
+                "replace": false,
+                "to": "//art/undefined",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Eyyyyyy2"
+                      className="card-img-top"
+                      src={undefined}
+/>,
+                    <div
+                      className="card-body"
+>
+                      <h3
+                                            className="card-title"
+                      >
+                                            Eyyyyyy2
+                      </h3>
+</div>,
+                  ],
+                  "className": "card animated fadeIn",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Eyyyyyy2",
+                      "className": "card-img-top",
+                      "src": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="card-title"
+>
+                          Eyyyyyy2
+</h3>,
+                        null,
+                      ],
+                      "className": "card-body",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Eyyyyyy2",
+                          "className": "card-title",
+                        },
+                        "ref": null,
+                        "rendered": "Eyyyyyy2",
+                        "type": "h3",
+                      },
+                      null,
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
