@@ -128,7 +128,7 @@
             "title":"Rynspyr",
             "slug": "rynspyr",
             "subtitle": "php",
-            "description":"This is the webpage for my webcomic Rynspyr. It has a simple backend in php to upload pages and news posts and publish them at specific times. ",
+            "description":"<p>This is the webpage for my webcomic Rynspyr. It has a simple backend in php to upload pages and news posts and publish them at specific times. </p>",
             "date":"2013-12-03",
             "tools":"php, photoshop, html, css",
             "link":"http:\/\/rynspyr.emihaumut.com\/",
@@ -138,6 +138,31 @@
                 {"url":"/assets\/curated\/Rynspyr.png","alt":"Newest page."},
                 {"url":"/assets\/curated\/addpage.png","alt":"Adding a new page"},
                 {"url":"/assets\/curated\/manage.png","alt":"Managing pages in chapter 3"}
+            ]
+        },
+        {
+            "title":"Map Editor",
+            "slug": "map-editor",
+            "subtitle": "Java Spring Boot & React/Redux",
+            "description":"<p>This is the beginnings of a browser based map editor utlizing a lot of svgs. The backend is powered by java spring boot and the front end by react/redux/typescript. Please visit the github for more information on architecture.</p>",
+            "date":"2018-02-28",
+            "tools":"java spring boot, react/redux/typescript",
+            "github": "https://github.com/yeewai/map-editor",
+            "thumbnail":"/assets\/curated\/mapeditor-thumb.png",
+            "images": [
+                {"url":"/assets\/curated\/mapeditor.png","alt":"Placing buildings on a map. A library of possible buildings sits on the right."}
+            ]
+        },
+        {
+            "title":"Skills Value Portfolio",
+            "slug": "svp",
+            "subtitle": "Scala Play & React/Redux",
+            "description":"<p>Skills Value Portfolio (SVP) is an interactive dashboard that presents students with an overview of their progress and achievements throughout the program, including the skills and values they developed in their course experiences and their co-curricular experiences. It also allows them to solicit and receive feedback from external contacts, receive feedback from faculty, and compose periodic reflections about their growth and development.</p><p>Faculty are able to use the SVP community view to explore any student's individual dashboard and provide feedback. </p>",
+            "date":"2018-01-20",
+            "tools":"scala play, react/redux",
+            "thumbnail":"/assets\/curated\/svp-thumb.png",
+            "images": [
+                {"url":"/assets\/curated\/svp.png", "alt":"A dashboard that shows a demo student's bio, badges, and progress through their graduate school program."}
             ]
         }
     ]
