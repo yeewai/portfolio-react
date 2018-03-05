@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import StickyBox from "react-sticky-box";
 
-import OpenModalButton from 'components/Modal/OpenModalButton';
 import { projectsSelectors } from 'services/projects';
 
 export const ProjectDetail = ({ project }) => {
@@ -12,16 +11,14 @@ export const ProjectDetail = ({ project }) => {
         <article className="projectDetail row justify-content-center">
             <section className="images col-sm-8">
                 { project.images.map( (image, i) => (
-                    <OpenModalButton modalType="SHOW_IMAGE" modalProps={ image } key={`images-${i}`}>
-                        <img className="img-fluid" src={image.url} alt={image.alt} />
-                    </OpenModalButton>
+                    <img className="img-fluid" src={image.url} alt={image.alt} key={`image-${i}`}/>
                 )) }
             </section>
             <div className="col-sm">
                 <StickyBox className="project-description card">
                     <section className="card-body">
                         <h2 className="card-title">{project.title}</h2>
-                        <h4 class="card-subtitle mb-2 text-muted">{project.subtitle}</h4>
+                        <h4 className="card-subtitle mb-2 text-muted">{project.subtitle}</h4>
                         <p className="details">
                             <time>{project.date}</time>
                             <br />

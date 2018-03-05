@@ -41,36 +41,16 @@ ShallowWrapper {
         <section
           className="images col-sm-8"
 >
-          <Connect(OpenModalButton)
-                    modalProps={
-                              Object {
-                                        "alt": "b",
-                                        "url": "a",
-                                      }
-                    }
-                    modalType="SHOW_IMAGE"
-          >
-                    <img
-                              alt="b"
-                              className="img-fluid"
-                              src="a"
-                    />
-          </Connect(OpenModalButton)>
-          <Connect(OpenModalButton)
-                    modalProps={
-                              Object {
-                                        "alt": "d",
-                                        "url": "c",
-                                      }
-                    }
-                    modalType="SHOW_IMAGE"
-          >
-                    <img
-                              alt="d"
-                              className="img-fluid"
-                              src="c"
-                    />
-          </Connect(OpenModalButton)>
+          <img
+                    alt="b"
+                    className="img-fluid"
+                    src="a"
+          />
+          <img
+                    alt="d"
+                    className="img-fluid"
+                    src="c"
+          />
 </section>,
         <div
           className="col-sm"
@@ -87,7 +67,7 @@ ShallowWrapper {
                                         Eyyyyyy
                               </h2>
                               <h4
-                                        class="card-subtitle mb-2 text-muted"
+                                        className="card-subtitle mb-2 text-muted"
                               >
                                         Sub-eyyyyyyy
                               </h4>
@@ -123,36 +103,16 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Connect(OpenModalButton)
-              modalProps={
-                            Object {
-                                          "alt": "b",
-                                          "url": "a",
-                                        }
-              }
-              modalType="SHOW_IMAGE"
->
-              <img
-                            alt="b"
-                            className="img-fluid"
-                            src="a"
-              />
-</Connect(OpenModalButton)>,
-            <Connect(OpenModalButton)
-              modalProps={
-                            Object {
-                                          "alt": "d",
-                                          "url": "c",
-                                        }
-              }
-              modalType="SHOW_IMAGE"
->
-              <img
-                            alt="d"
-                            className="img-fluid"
-                            src="c"
-              />
-</Connect(OpenModalButton)>,
+            <img
+              alt="b"
+              className="img-fluid"
+              src="a"
+/>,
+            <img
+              alt="d"
+              className="img-fluid"
+              src="c"
+/>,
           ],
           "className": "images col-sm-8",
         },
@@ -160,67 +120,29 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "images-0",
-            "nodeType": "class",
+            "key": "image-0",
+            "nodeType": "host",
             "props": Object {
-              "children": <img
-                alt="b"
-                className="img-fluid"
-                src="a"
-/>,
-              "modalProps": Object {
-                "alt": "b",
-                "url": "a",
-              },
-              "modalType": "SHOW_IMAGE",
+              "alt": "b",
+              "className": "img-fluid",
+              "src": "a",
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "b",
-                "className": "img-fluid",
-                "src": "a",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": [Function],
+            "rendered": null,
+            "type": "img",
           },
           Object {
             "instance": null,
-            "key": "images-1",
-            "nodeType": "class",
+            "key": "image-1",
+            "nodeType": "host",
             "props": Object {
-              "children": <img
-                alt="d"
-                className="img-fluid"
-                src="c"
-/>,
-              "modalProps": Object {
-                "alt": "d",
-                "url": "c",
-              },
-              "modalType": "SHOW_IMAGE",
+              "alt": "d",
+              "className": "img-fluid",
+              "src": "c",
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "d",
-                "className": "img-fluid",
-                "src": "c",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": [Function],
+            "rendered": null,
+            "type": "img",
           },
         ],
         "type": "section",
@@ -242,7 +164,7 @@ ShallowWrapper {
                                     Eyyyyyy
                         </h2>
                         <h4
-                                    class="card-subtitle mb-2 text-muted"
+                                    className="card-subtitle mb-2 text-muted"
                         >
                                     Sub-eyyyyyyy
                         </h4>
@@ -283,7 +205,7 @@ ShallowWrapper {
                             Eyyyyyy
               </h2>
               <h4
-                            class="card-subtitle mb-2 text-muted"
+                            className="card-subtitle mb-2 text-muted"
               >
                             Sub-eyyyyyyy
               </h4>
@@ -321,7 +243,7 @@ ShallowWrapper {
                   Eyyyyyy
 </h2>,
                 <h4
-                  class="card-subtitle mb-2 text-muted"
+                  className="card-subtitle mb-2 text-muted"
 >
                   Sub-eyyyyyyy
 </h4>,
@@ -366,7 +288,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Sub-eyyyyyyy",
-                  "class": "card-subtitle mb-2 text-muted",
+                  "className": "card-subtitle mb-2 text-muted",
                 },
                 "ref": null,
                 "rendered": "Sub-eyyyyyyy",
@@ -448,36 +370,16 @@ ShallowWrapper {
           <section
             className="images col-sm-8"
 >
-            <Connect(OpenModalButton)
-                        modalProps={
-                                    Object {
-                                                "alt": "b",
-                                                "url": "a",
-                                              }
-                        }
-                        modalType="SHOW_IMAGE"
-            >
-                        <img
-                                    alt="b"
-                                    className="img-fluid"
-                                    src="a"
-                        />
-            </Connect(OpenModalButton)>
-            <Connect(OpenModalButton)
-                        modalProps={
-                                    Object {
-                                                "alt": "d",
-                                                "url": "c",
-                                              }
-                        }
-                        modalType="SHOW_IMAGE"
-            >
-                        <img
-                                    alt="d"
-                                    className="img-fluid"
-                                    src="c"
-                        />
-            </Connect(OpenModalButton)>
+            <img
+                        alt="b"
+                        className="img-fluid"
+                        src="a"
+            />
+            <img
+                        alt="d"
+                        className="img-fluid"
+                        src="c"
+            />
 </section>,
           <div
             className="col-sm"
@@ -494,7 +396,7 @@ ShallowWrapper {
                                                 Eyyyyyy
                                     </h2>
                                     <h4
-                                                class="card-subtitle mb-2 text-muted"
+                                                className="card-subtitle mb-2 text-muted"
                                     >
                                                 Sub-eyyyyyyy
                                     </h4>
@@ -530,36 +432,16 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Connect(OpenModalButton)
-                modalProps={
-                                Object {
-                                                "alt": "b",
-                                                "url": "a",
-                                              }
-                }
-                modalType="SHOW_IMAGE"
->
-                <img
-                                alt="b"
-                                className="img-fluid"
-                                src="a"
-                />
-</Connect(OpenModalButton)>,
-              <Connect(OpenModalButton)
-                modalProps={
-                                Object {
-                                                "alt": "d",
-                                                "url": "c",
-                                              }
-                }
-                modalType="SHOW_IMAGE"
->
-                <img
-                                alt="d"
-                                className="img-fluid"
-                                src="c"
-                />
-</Connect(OpenModalButton)>,
+              <img
+                alt="b"
+                className="img-fluid"
+                src="a"
+/>,
+              <img
+                alt="d"
+                className="img-fluid"
+                src="c"
+/>,
             ],
             "className": "images col-sm-8",
           },
@@ -567,67 +449,29 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "images-0",
-              "nodeType": "class",
+              "key": "image-0",
+              "nodeType": "host",
               "props": Object {
-                "children": <img
-                  alt="b"
-                  className="img-fluid"
-                  src="a"
-/>,
-                "modalProps": Object {
-                  "alt": "b",
-                  "url": "a",
-                },
-                "modalType": "SHOW_IMAGE",
+                "alt": "b",
+                "className": "img-fluid",
+                "src": "a",
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "alt": "b",
-                  "className": "img-fluid",
-                  "src": "a",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "img",
-              },
-              "type": [Function],
+              "rendered": null,
+              "type": "img",
             },
             Object {
               "instance": null,
-              "key": "images-1",
-              "nodeType": "class",
+              "key": "image-1",
+              "nodeType": "host",
               "props": Object {
-                "children": <img
-                  alt="d"
-                  className="img-fluid"
-                  src="c"
-/>,
-                "modalProps": Object {
-                  "alt": "d",
-                  "url": "c",
-                },
-                "modalType": "SHOW_IMAGE",
+                "alt": "d",
+                "className": "img-fluid",
+                "src": "c",
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "alt": "d",
-                  "className": "img-fluid",
-                  "src": "c",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "img",
-              },
-              "type": [Function],
+              "rendered": null,
+              "type": "img",
             },
           ],
           "type": "section",
@@ -649,7 +493,7 @@ ShallowWrapper {
                                           Eyyyyyy
                             </h2>
                             <h4
-                                          class="card-subtitle mb-2 text-muted"
+                                          className="card-subtitle mb-2 text-muted"
                             >
                                           Sub-eyyyyyyy
                             </h4>
@@ -690,7 +534,7 @@ ShallowWrapper {
                                 Eyyyyyy
                 </h2>
                 <h4
-                                class="card-subtitle mb-2 text-muted"
+                                className="card-subtitle mb-2 text-muted"
                 >
                                 Sub-eyyyyyyy
                 </h4>
@@ -728,7 +572,7 @@ ShallowWrapper {
                     Eyyyyyy
 </h2>,
                   <h4
-                    class="card-subtitle mb-2 text-muted"
+                    className="card-subtitle mb-2 text-muted"
 >
                     Sub-eyyyyyyy
 </h4>,
@@ -773,7 +617,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Sub-eyyyyyyy",
-                    "class": "card-subtitle mb-2 text-muted",
+                    "className": "card-subtitle mb-2 text-muted",
                   },
                   "ref": null,
                   "rendered": "Sub-eyyyyyyy",
