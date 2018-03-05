@@ -19,11 +19,12 @@ export const ProjectDetail = ({ project }) => {
                     <section className="card-body">
                         <h2 className="card-title">{project.title}</h2>
                         <h4 className="card-subtitle mb-2 text-muted">{project.subtitle}</h4>
-                        <p className="details">
-                            <time>{project.date}</time>
-                            <br />
-                            Tools: {project.tools}
-                        </p>
+                        <ul className="details">
+                            { project.github ? <li><a href={project.github} target="_blank">github</a></li> : null }
+                            { project.link ? <li><a href={project.link} target="_blank">View in Action</a></li> : null }
+                            <li><time>{project.date}</time></li>
+                            <li><strong>Tools</strong>: {project.tools}</li>
+                        </ul>
                         <section className="description" dangerouslySetInnerHTML={{__html: project.description}} />
 
                     </section>
